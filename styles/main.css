@@ -348,6 +348,20 @@ button {
   background-color: #014E56;
 }
 
+@media only screen and (max-width: 576px) {
+  .form__input {
+    width: 350px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.115385px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+}
+
 .form__input::-webkit-input-placeholder {
   font-style: normal;
   font-weight: 600;
@@ -416,6 +430,12 @@ button {
   mix-blend-mode: normal;
   opacity: 0.6;
   margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 576px) {
+  .form__textarea {
+    width: 350px;
+  }
 }
 
 .form__textarea::-webkit-input-placeholder {

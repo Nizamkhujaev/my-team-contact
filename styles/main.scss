@@ -306,6 +306,18 @@ button {
     border-bottom: 1px solid white;
     background-color: $midnightGreen;
 
+    @media only screen and(max-width:576px) {
+      width: 350px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: -0.115385px;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+    }
+
     &::placeholder {
       font-style: normal;
       font-weight: 600;
@@ -339,6 +351,11 @@ button {
     letter-spacing: -0.115385px;
     color: #FFFFFF;
     mix-blend-mode: normal;
+
+     @media only screen and(max-width:576px) {
+       width: 350px;
+     }
+
     opacity: 0.6;
     margin-bottom: 24px;
 
